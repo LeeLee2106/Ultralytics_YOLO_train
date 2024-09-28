@@ -20,6 +20,8 @@ def convertToAbsoluteValues(size, box):
 
     return (xIn, yIn, xEnd, yEnd)
 
+
+
 def read_boxes_from_file(filepath, image_width, image_height):
     """
     주어진 파일 경로에서 YOLO 형식 [class, xn, yn, wn, hn] 값을 읽어 절대 좌표로 변환
